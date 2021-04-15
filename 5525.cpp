@@ -12,8 +12,7 @@ using ll = long long;
 int solve() {
 	int n, m;
 	string s;
-	cin >> n >> m;
-	cin >> s;
+	cin >> n >> m >> s;
 
 	int res = 0, i = s.find('I');
 	if (i != -1) {
